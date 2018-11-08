@@ -33,8 +33,14 @@
     <link rel="stylesheet" href="plugins/facncybox/jquery.fancybox.css">
     <!-- template main css file -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Prism.js -->
+    <link href="plugins/prism/prism.css" rel="stylesheet" />
+
+
 </head>
 <body>
+
+<script src="plugins/prism/prism.js"></script>
 
 <?php include 'header.php'; ?>
 
@@ -48,7 +54,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Home</h2>
+                    <h2>Sample programs</h2>
                 </div>
             </div>
         </div>
@@ -63,24 +69,22 @@
 <section class="company-description">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
-                <img src="images/home/python.jpg" alt="" class="img-responsive">
-            </div>
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <div class="block">
                     <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
-                        History of Python
+                        Hello World
                     </h3>
-                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        Python is an interpreted high-level programming language for general-purpose programming.
-                        Created by Guido van Rossum and first released in 1991, Python has a design philosophy that
-                        emphasizes code readability, notably using significant whitespace. It provides constructs that
-                        enable clear programming on both small and large scales. In July 2018, Van Rossum stepped down
-                        as the leader in the language community after 30 years.
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                        <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code class="language-python">print("Hello World!")</code></pre>
                     </p>
-                    <p class="wow fadeInUp" data-wow-delay=".7s" data-wow-duration="500ms">
-                        Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et
-                        voluptates repudiandae sint et molestiae non recusandae.
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code class="language-python">Hello World!</code></pre>
                     </p>
 
                 </div>

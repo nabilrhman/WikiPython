@@ -26,11 +26,11 @@
                 <nav class="collapse navbar-collapse navbar-right" style="margin-top: 20px !important;" role="navigation">
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="index.html" >Home</a></li>
-                            <li><a href="interpreter.html">Interpreter</a></li>
-                            <li><a href="sample.html">Sample programs</a></li>
-                            <li><a href="comparison.html">Comparison</a></li>
-                            <li><a href="utility.html">Utility</a></li>
+                            <li><a href="index.php" >Home</a></li>
+                            <li><a href="interpreter.php">Interpreter</a></li>
+                            <li><a href="sample.php">Sample programs</a></li>
+                            <li><a href="comparison.php">Comparison</a></li>
+                            <li><a href="utility.php">Utility</a></li>
                         </ul>
                     </div>
                 </nav>
