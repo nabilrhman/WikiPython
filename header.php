@@ -28,6 +28,7 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.php" >Home</a></li>
                             <li><a href="interpreter.php">Interpreter</a></li>
+                            <li><a href="links.php">Resource</a></li>
                             <li><a href="sample.php">Sample programs</a></li>
                             <li><a href="comparison.php">Comparison</a></li>
                             <li><a href="utility.php">Utility</a></li>
