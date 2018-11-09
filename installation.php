@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="icon" href="favicon.ico">
-    <title>WikiPython - Sample programs</title>
+    <title>WikiPython - Installation</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
@@ -54,7 +54,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Interpreter</h2>
+                    <h2>Installation</h2>
                 </div>
             </div>
         </div>
