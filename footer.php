@@ -4,7 +4,7 @@
             ================================================== -->
             <footer id="footer">
                 <div class="container">
-                    <div class="col-md-8">
+                    <div class="col-md-8" style="padding-left: 0px !important;">
                         <p class="copyright">Copyright: <span><script>document.write(new Date().getFullYear())</script></span> Team Hawks. <br>
                             Developed by
                             <a href="https://themefisher.com/free-bootstrap-templates/" target="_blank">
@@ -20,10 +20,10 @@
                             </a>
                         </p>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" style="padding-right: 0px !important;">
                         <!-- Social Media -->
-                        <ul class="social">
-                            <li>
+                        <ul class="social" style="margin-right: 0px !important;">
+                            <li style="margin-right: 0px !important;">
                                 <a href="http://wwww.fb.com/themefisher" class="GitHub">
                                     <i class="ion-social-github"></i>
                                 </a>

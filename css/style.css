@@ -1,6 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700);
 @import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Glegoo);
+
+
+.list-group .list-group-item
+{
+  font-family: "Roboto", sans-serif !important;
+  line-height: 22px !important;
+  font-size: 16px !important;
+  font-weight: 300 !important;
+    color: #727272;
+}
+
+strong
+{
+    font-weight: 500 !important;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -186,6 +202,7 @@ a:hover {
 /*=== MEDIA QUERY ===*/
 .navbar-default .navbar-nav li a:hover {
   color: #306998;
+  font-weight: 800 !important;
 }
 
 .navbar.navbar-default {
