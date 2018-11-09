@@ -89,8 +89,7 @@
                             that can be run to install Python.
                         </li>
                         <li class="list-group-item">On macOS, the best way to install Python 3 involves installing a
-                            package manager called Homebrew. You’ll see how to do this in the relevant section in the
-                            tutorial.
+                            package manager called Homebrew.
                         </li>
                     </ul>
 
@@ -105,7 +104,7 @@
                         Windows
                     </h4>
 
-                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
+                    <ul class="list-group wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms"
                         style="margin-bottom: 10px !important;">
                         <li class="list-group-item">Open a browser window and navigate to the Download page for Windows
                             at python.org.
@@ -132,7 +131,7 @@
                         MacOS
                     </h4>
 
-                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
+                    <ul class="list-group wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms"
                         style="margin-bottom: 10px !important;">
                         <li class="list-group-item">To get started, you first want to <a
                                     href="https://realpython.com/installing-python/#step-1-install-homebrew-part-1">install
@@ -152,7 +151,7 @@
                         Linux
                     </h4>
 
-                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
+                    <ul class="list-group wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms"
                         style="margin-bottom: 10px !important;">
                         <li class="list-group-item">There is a very good chance your Linux distribution has Python
                             installed already, but it probably won’t be the latest version, and it may be Python 2
@@ -160,30 +159,30 @@
                         </li>
                         <li class="list-group-item">To find out what version(s) you have, open a terminal window and try
                             the following commands.
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">python --version</code></pre>
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">python2 --version</code></pre>
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">python3 --version</code></pre>
                         </li>
                         <li class="list-group-item">One or more of these commands should respond with a version. If Python is not installed or updated, try the following.
                         </li>
                         <li class="list-group-item"><strong>UBUNTU</strong><br>
                             Open a terminal and run the following commands.
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">sudo apt-get update</code></pre>
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">sudo apt-get install python3.6</code></pre>
                         </li>
                         <li class="list-group-item"><strong>CENTOS</strong><br>
                             Open a terminal and run the following command.
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">sudo yum install python36u</code></pre>
                         </li>
                         <li class="list-group-item"><strong>FEDORA</strong><br>
                             Open a terminal and run the following command.
-                            <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                            <pre class="wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms"><code
                                         class="language-bash">sudo dnf install python36</code></pre>
                         </li>
                         <li class="list-group-item">

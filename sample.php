@@ -34,7 +34,7 @@
     <!-- template main css file -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Prism.js -->
-    <link href="plugins/prism/prism.css" rel="stylesheet" />
+    <link href="plugins/prism/prism.css" rel="stylesheet"/>
 
 
 </head>
@@ -78,14 +78,167 @@
                         Program
                     </h4>
                     <p>
-                        <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code class="language-python">print("Hello World!")</code></pre>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">print("Hello World!")</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python hello.py</code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
                         Output
                     </h4>
                     <p>
-                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code class="language-python">Hello World!</code></pre>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">Hello World!</code></pre>
                     </p>
+
+                    <!--
+                    ==================================================
+                        uniqueNumbers.py
+                    ================================================== -->
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Unique numbers
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python"># Find the unique numbers in a given list
+def uniqueNumbers(list):
+    unique_numbers = []
+    back_list = []
+
+    for i in range(0,len(list)):
+        if list[i] in unique_numbers:
+            val = list[i]
+            del unique_numbers[unique_numbers.index(val)]
+        else:
+            if list[i] in back_list:
+                continue
+            back_list.append(list[i])
+            unique_numbers.append(list[i])
+
+    print(unique_numbers)
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python uniqueNumbers.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">Hello World!</code></pre>
+                    </p>
+
+                    <!--
+==================================================
+    slicer.py
+================================================== -->
+
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Slicer
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python"># get user email address
+email = input("What is your email address?: ").strip()
+
+# slice out user name
+username = email[:email.index("@")]
+
+# slice domain name
+domainName = email[email.index("@") + 1:]
+
+# format message
+output = "Your username is {} and your domain is {}".format(username, domainName)
+
+# display output message
+print(output)
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python slicer.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">Hello World!</code></pre>
+                    </p>
+
+                    <!--
+==================================================
+Dog.py
+================================================== -->
+
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Class example
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python">class Dog:
+    def __init__(self, breed, age, color):
+        self.breed = breed
+        self.age = age
+        self.color = color
+        self.status = "active"
+
+    def bark(self):
+        print("ruff")
+
+    def play(self):
+        self.status = "tired"
+
+    def rest(self):
+        self.status = "active"
+
+# Testing the class
+
+Bruce = Dog("labrador",5,"black")
+
+print(Bruce.breed)
+Bruce.rest()
+print(Bruce.status)
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python Dog.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">Hello World!</code></pre>
+                    </p>
+
+
 
                 </div>
             </div>
