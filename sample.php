@@ -124,6 +124,15 @@ def uniqueNumbers(list):
             unique_numbers.append(list[i])
 
     print(unique_numbers)
+
+# Testing
+sample_list = [1,2,3,4,5,6,7,7]
+sample_list_two = [44,55,66,77,44,55,66]
+sample_list_three = [2,3,4,5,6,7,8,1,2,3,4,5,6,7,8,9]
+
+print("The unique numbers in sample_list are " + ','.join(map(str, uniqueNumbers(sample_list))))
+print("The unique numbers in sample_list_two are " + ','.join(map(str, uniqueNumbers(sample_list_two))))
+print("The unique numbers in sample_list_three are " + ','.join(map(str, uniqueNumbers(sample_list_three))))
 </code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -138,7 +147,9 @@ def uniqueNumbers(list):
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-python">Hello World!</code></pre>
+                                class="language-bash">The unique numbers in sample_list are 1,2,3,4,5,6
+The unique numbers in sample_list_two are 77
+The unique numbers in sample_list_three are 1,9</code></pre>
                     </p>
 
                     <!--
@@ -154,20 +165,23 @@ def uniqueNumbers(list):
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-<code class="language-python"># get user email address
-email = input("What is your email address?: ").strip()
+<code class="language-python">def slicer():
+    # Get user email address
+    email = input("What is your email address?: ").strip()
 
-# slice out user name
-username = email[:email.index("@")]
+    # Slice out user name
+    username = email[:email.index("@")]
 
-# slice domain name
-domainName = email[email.index("@") + 1:]
+    # Slice domain name
+    domainName = email[email.index("@") + 1:]
 
-# format message
-output = "Your username is {} and your domain is {}".format(username, domainName)
+    # Format message
+    output = "Your username is {} and your domain is {}".format(username, domainName)
 
-# display output message
-print(output)
+    # Display output message
+    print(output)
+
+slicer()
 </code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -178,11 +192,12 @@ print(output)
                                 class="language-bash">python slicer.py</code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
-                        Output
+                        Demo
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-python">Hello World!</code></pre>
+                                class="language-bash">What is your email address?: jamesbond@british-intelligence.com
+Your username is jamesbond and your domain is british-intelligence.com</code></pre>
                     </p>
 
                     <!--
@@ -215,10 +230,13 @@ Dog.py
         self.status = "active"
 
 # Testing the class
-
 Bruce = Dog("labrador",5,"black")
 
+print(Bruce.color)
+print(Bruce.age)
 print(Bruce.breed)
+Bruce.play()
+print(Bruce.status)
 Bruce.rest()
 print(Bruce.status)
 </code></pre>
@@ -235,9 +253,293 @@ print(Bruce.status)
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-python">Hello World!</code></pre>
+                                class="language-bash">black
+5
+labrador
+tired
+active</code></pre>
                     </p>
 
+                    <!--
+==================================================
+calculator.py
+================================================== -->
+
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Calculator
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python"># Calculator
+# Performs simple arithmetic on values fed by the user
+
+import math
+import time
+
+print('Starting calculator...')
+time.sleep(1)
+
+#calculator function
+def calculator():
+    first_number = int(input('please enter the first number: ').strip())
+    first_choice = input('would you like to enter a second number? (y/n) ').strip()
+
+    if(first_choice == 'y'):
+        second_number = int(input('please enter the second number: ').strip())
+        print('what kind of operation would you like to perform on these values? (type in a number) ')
+        choice = int(input('[1]addition [2]subtraction [3]multiplication [4]division ').strip())
+
+        if(choice) == 1:
+            print(str(first_number) + '+' + str(second_number) + ' = ' + str(add(first_number,second_number)))
+        elif choice == 2:
+            print(str(first_number) + '-' + str(second_number) +
+                  ' = ' + str(subtract(first_number, second_number)))
+        elif choice == 3:
+            print(str(first_number) + '*' + str(second_number) +
+                  ' = ' + str(multiply(first_number, second_number)))
+        elif choice == 4:
+            print(str(first_number) + '/' + str(second_number) +
+                  ' = ' + str(divide(first_number, second_number)))
+    else:
+        print("[1] to get the square root of " + str(first_number))
+        print("[2] to get " + str(first_number) + " squared")
+        option  = int(input("type 1 or 2 to continue ").strip())
+        if(option == 1):
+            print("square root of " + str(first_number) + " is " + str(sq_root(first_number)))
+        elif(option == 2):
+            print(str(first_number) + " squared is " + str(squared(first_number)))
+    calculate_again()
+
+
+def sq_root(number):
+    sq_root_number = math.sqrt(number)
+    return sq_root_number
+
+def squared(number):
+    return number**2
+
+def add(x,y):
+    return x+y
+
+def subtract(x,y):
+    return x-y
+
+def multiply(x,y):
+    return x*y
+
+def divide(x,y):
+    return x/y
+
+def calculate_again():
+    print('\n')
+    option = input('would you like to keep using the calculator?(y/n) ').strip().lower()
+    if option == 'y':
+        calculator()
+    else:
+        pass
+
+if __name__ == '__main__':
+    calculator()
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python calculator.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Demo
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">black
+5
+labrador
+tired
+active</code></pre>
+                    </p>
+
+                    <!--
+==================================================
+blackjack.py
+================================================== -->
+
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Blackjack
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python"># Blackjack
+
+import random
+import os
+
+# Initializing the deck
+deck = [2,3,4,5,6,7,8,9,10,11,12,13,14]*4
+
+higher_cards = ['J', 'Q', 'K']
+
+#deal cards function
+def deal(deck):
+    hand = []
+    for i in range(0,2):
+        random.shuffle(deck)
+        card = deck.pop()
+        if card == 11:
+            card = 'J'
+        elif card == 12:
+            card = 'Q'
+        elif card == 13:
+            card = 'K'
+        elif card == 14:
+            card = 'A'
+        hand.append(card)
+    return hand
+
+# Returns the total of the hand
+def hand_total(hand):
+    total = 0
+    for card in hand:
+        if card in higher_cards:
+            total += 10
+        elif card == 'A':
+            if total >= 11:
+                total += 1
+            else: total += 11
+        else:
+            total += card
+    return total
+
+# Adds one more card to the hand
+def hit(hand):
+    card = deck.pop()
+    if card == 11:
+        card = 'J'
+    elif card == 12:
+        card = 'Q'
+    elif card == 13:
+        card = 'K'
+    else:
+        card = 'A'
+    hand.append(card)
+    return hand
+
+# Clears the terminal window depending on the OS
+def clear():
+    if os.name == 'nt':
+        os.system('CLS')
+    if os.name == 'posix':
+        os.system('clear')
+
+# Function displays the hands of the dealer and player
+def print_results(dealerHand, playerHand):
+    clear()
+    print("The dealer has a" + str(dealerHand) + " for a total of " + str(hand_total(dealerHand)))
+    print("You have a " + str(playerHand) + " for a total of " + str(hand_total(playerHand)))
+
+# Restart game
+def play_again():
+    option = input("Would you like to play again? (Y/N): ").upper()
+    if option == 'Y':
+        global deck
+        deck = [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14] * 4
+        game()
+    else:
+        print("Thanks for playing, see you!")
+        exit()
+
+# This function takes care of the case either dealer or player have blackjack
+def blackjack(dealerHand, playerHand):
+    if hand_total(playerHand) == 21:
+        print_results(dealerHand, playerHand)
+        print("Well done! You got a Blackjack!\n")
+        play_again()
+    elif hand_total(dealerHand) == 21:
+        print_results(dealerHand, playerHand)
+        print("Sorry, dealer got a blackjack... you lose\n")
+        play_again()
+
+# This function display the results according to the hands both the player and dealer have
+def score(dealerHand, playerHand):
+    if hand_total(playerHand) == 21:
+        print_results(dealerHand, playerHand)
+        print("Congratulations! You got a Blackjack!\n")
+    elif hand_total(dealerHand) == 21:
+        print_results(dealerHand, playerHand)
+        print("Sorry, dealer got a blackjack... you lose\n")
+    elif hand_total(playerHand) > 21:
+        print_results(dealerHand, playerHand)
+        print("Sorry. You busted. You lose.\n")
+    elif hand_total(dealerHand) > 21:
+        print_results(dealerHand, playerHand)
+        print("Dealer busted. You win!\n")
+    elif hand_total(playerHand) < hand_total(dealerHand):
+        print_results(dealerHand, playerHand)
+        print("Sorry. Your score isn't higher than the dealer. You lose.\n")
+    elif hand_total(playerHand) > hand_total(dealerHand):
+        print_results(dealerHand, playerHand)
+        print("Congratulations. Your score is higher than the dealer. You win\n")
+    elif hand_total(playerHand) == hand_total(dealerHand):
+        print("It's a tie!")
+
+# Run game function
+def game():
+    choice = 0
+    clear()
+    print("WELCOME TO BLACKJACK!\n")
+    dealerHand = deal(deck)
+    playerHand = deal(deck)
+    while choice != "q":
+        print("The dealer is showing a {}".format(dealerHand[0]))
+        print("You have a " + str(playerHand) + " for a total of " + str(hand_total(playerHand)))
+        blackjack(dealerHand, playerHand)
+        choice = input("Do you want to [H]it, [S]tand, or [Q]uit: ").lower()
+        clear()
+        if choice == "h":
+            hit(playerHand)
+            while hand_total(dealerHand) < 17:
+                hit(dealerHand)
+            score(dealerHand, playerHand)
+            play_again()
+        elif choice == "s":
+            while hand_total(dealerHand) < 17:
+                hit(dealerHand)
+            score(dealerHand, playerHand)
+            play_again()
+        elif choice == "q":
+            print("Bye!")
+            exit()
+
+if __name__ == '__main__':
+    game()
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python blackjack.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Demo
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">black
+5
+labrador
+tired
+active</code></pre>
+                    </p>
 
 
                 </div>
