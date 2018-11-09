@@ -16,7 +16,7 @@
                     
                     <!-- logo -->
                     <div class="navbar-brand">
-                        <a href="index.html" >
+                        <a href="index.php" >
                             <img src="images/logo.png" alt="">
                         </a>
                     </div>
@@ -27,7 +27,7 @@
                     <div class="main-menu">
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="index.php" >Home</a></li>
-                            <li><a href="interpreter.php">Interpreter</a></li>
+                            <li><a href="installation.php">Installation</a></li>
                             <li><a href="links.php">Resource</a></li>
                             <li><a href="sample.php">Sample programs</a></li>
                             <li><a href="comparison.php">Comparison</a></li>
