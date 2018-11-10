@@ -64,15 +64,17 @@
     <div class="container">
 
         <div class="row">
+            <div class="col-md-12">
+                <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">How
+                                                                                                                       does
+                                                                                                                       Python
+                                                                                                                       compare
+                                                                                                                       to
+                                                                                                                       Java?</h3>
+            </div>
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">How
-                                                                                                                   does
-                                                                                                                   Python
-                                                                                                                   compare
-                                                                                                                   to
-                                                                                                                   Java?</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Python and Java look similar and share many attributes, but also have their differences. Both
@@ -82,12 +84,7 @@
                         next closest contender being matlab at a mere 8. Some schools also use a hybrid approach,
                         teaching Python as a 0 level course, and then Java as the level 1 course.
                     </p>
-                </div>
-            </div>
 
-
-            <div class="col-md-6">
-                <div class="block">
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Similarities</h3>
 
@@ -102,19 +99,26 @@
                 </div>
             </div>
 
+            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+                <img src="images/comparison/chart.png" alt="" class="img-responsive">
+            </div>
+
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
-                        Differences</h3>
-                </div>
+
+
+            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+                <img style="margin-top: 50px !important;" src="images/comparison/java-python.jpg" alt="" class="img-responsive">
             </div>
 
             <div class="col-md-6">
                 <div class="block">
 
+                    <div class="block">
+                        <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
+                            Differences</h3>
+                    </div>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         The difference most users would probably first spot is that Python decides to use
@@ -140,18 +144,10 @@
                 </div>
             </div>
 
-            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
-                <img src="images/comparison/java-python.jpg" alt="" class="img-responsive">
-            </div>
+
         </div>
 
         <div class="row">
-
-
-
-            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
-                <img style="margin-top: 50px !important;" src="images/comparison/js-python.jpg" alt="" class="img-responsive">
-            </div>
 
             <div class="col-md-6">
                 <div class="block">
@@ -160,6 +156,7 @@
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Adding Javascript
                         to the mix</h3>
+
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Python, Java and Javascript are all object-oriented, lexically scoped languages. Unlike Java,
                         Python and Javascript are both interpreted scripting languages with relatively simple syntax.
@@ -187,6 +184,11 @@
 
                 </div>
             </div>
+
+            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+                <img style="margin-top: 50px !important;" src="images/comparison/js-python.jpg" alt="" class="img-responsive">
+            </div>
+
 
 
         </div>
