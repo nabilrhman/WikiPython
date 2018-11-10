@@ -71,12 +71,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
-                    How
-                    does
-                    Python
-                    compare
-                    to
-                    Java?</h3>
+                    How does Python compare to Java?</h3>
             </div>
 
             <div class="col-md-6">
@@ -102,7 +97,7 @@
 
         <div class="row">
 
-            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
                 <img src="images/comparison/java-python.jpg" alt="" class="img-responsive">
             </div>
 
@@ -165,7 +160,7 @@
             <div class="col-md-6">
                 <div class="block">
 
-                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+                    <pre class="wow fadeInRight" data-wow-delay=".5s" data-wow-duration="500ms">
 <code class="language-python">class Duck:
 	def fly(self):
 		print("Duck flying")
@@ -197,7 +192,7 @@ lift_off(whale) # Throws the error 'Whale' object has no attribute 'fly'
 
         <div class="row">
 
-            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
+            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
                 <img style="margin-top: 50px !important;" src="images/comparison/js-python.jpg" alt=""
                      class="img-responsive">
             </div>
@@ -208,8 +203,7 @@ lift_off(whale) # Throws the error 'Whale' object has no attribute 'fly'
 
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s"
                         data-wow-duration="500ms">
-                        Adding Javascript
-                        to the mix</h3>
+                        Adding Javascript to the mix</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Python, Java and Javascript are all object-oriented, lexically scoped languages. Unlike Java,
