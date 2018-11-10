@@ -70,17 +70,15 @@
     <div class="container">
         <div class="row" style="margin-bottom: 24px !important;">
             <div class="col-md-6">
-                <a href="sample.php#basic"><button type="button" class="btn btn-primary btn-lg btn-block">BASIC</button></a>
-            </div>
-            <div class="col-md-6">
-                <a href="sample.php#advanced"><button type="button" class="btn btn-primary btn-lg btn-block">ADVANCED</button></a>
+                <a href="sample.php#basic"><button type="button" class="btn btn-primary btn-lg">BASIC</button></a>
+                <a href="sample.php#advanced"><button type="button" class="btn btn-warning btn-lg">ADVANCED</button></a>
             </div>
         </div>
 
-        <div class="row">
+        <div class="row" id="basic">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" id="basic" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
                         Hello World
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
