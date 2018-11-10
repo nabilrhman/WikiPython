@@ -68,10 +68,19 @@
 ================================================== -->
 <section class="company-description">
     <div class="container">
+        <div class="row" style="margin-bottom: 24px !important;">
+            <div class="col-md-6">
+                <a href="sample.php#basic"><button type="button" class="btn btn-primary btn-lg btn-block">BASIC</button></a>
+            </div>
+            <div class="col-md-6">
+                <a href="sample.php#advanced"><button type="button" class="btn btn-primary btn-lg btn-block">ADVANCED</button></a>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp" id="basic" data-wow-delay=".3s" data-wow-duration="500ms">
                         Hello World
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -79,7 +88,8 @@
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-python">print("Hello World!")</code></pre>
+                                class="language-python"># Print hello world to the console
+print("Hello World!")</code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
                         Run
@@ -150,6 +160,50 @@ print("The unique numbers in sample_list_three are " + ','.join(map(str, uniqueN
                                 class="language-bash">The unique numbers in sample_list are 1,2,3,4,5,6
 The unique numbers in sample_list_two are 77
 The unique numbers in sample_list_three are 1,9</code></pre>
+                    </p>
+
+                    <!--
+                   ==================================================
+                       uniqueNumbers.py
+                   ================================================== -->
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Fibonacci sequence
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
+<code class="language-python"># Fibonacci sequence
+# Return nth element in the fibonacci sequence
+def fibonacci_seq(n):
+    if n==0:
+        return 0
+    elif n==1:
+        return 1
+    else:
+        return fibonacci_seq(n-1) + fibonacci_seq(n-2)
+
+print('the 4th element in the fibonacci sequence is ' + str(fibonacci_seq(4)))
+print('the 8th element in the fibonacci sequence is ' + str(fibonacci_seq(8)))
+print('the 20th element in the fibonacci sequence is ' + str(fibonacci_seq(20)))
+</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python fibonacci.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">the 4th element in the fibonacci sequence is 3
+the 8th element in the fibonacci sequence is 21
+the 20th element in the fibonacci sequence is 6765</code></pre>
                     </p>
 
                     <!--
@@ -265,7 +319,7 @@ active</code></pre>
 calculator.py
 ================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPadding" id="advanced" data-wow-delay=".3s" data-wow-duration="500ms">
                         Calculator
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">

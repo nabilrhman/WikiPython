@@ -127,21 +127,6 @@
         </div>
 
         <div class="row">
-
-            <div class="col-md-12">
-                <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Easter Egg</h3>
-
-                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        When a user types “import this” into the Python interpreter it displays the 19 (believed to
-                        be 20, but not completed) software design principles of Python:
-                    </p>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="row">
             <div class="col-md-12">
             <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">The Zen of Python</h3>
             </div>
