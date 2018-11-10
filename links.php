@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Documentation
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">
@@ -79,7 +79,7 @@
                         <a href="https://docs.python.org/">docs.python.org</a>
                     </p>
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Language reference
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">
@@ -87,7 +87,7 @@
                         <a href="https://docs.python.org/3/reference/index.html">docs.python.org/reference</a>
                     </p>
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Full Grammar specification
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">
@@ -95,7 +95,7 @@
                         <a href="https://docs.python.org/3/reference/grammar.html">docs.python.org/reference/grammar</a>
                     </p>
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Developer’s guide
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">
@@ -103,7 +103,7 @@
                         <a href="https://devguide.python.org/">devguide.python.org</a>
                     </p>
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Beginner’s guide
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">

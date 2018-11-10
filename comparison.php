@@ -67,7 +67,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">How
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">How
                                                                                                                    does
                                                                                                                    Python
                                                                                                                    compare
@@ -88,7 +88,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Similarities</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
@@ -107,7 +107,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Differences</h3>
                 </div>
             </div>
@@ -157,7 +157,7 @@
                 <div class="block">
 
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Adding Javascript
                         to the mix</h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
@@ -195,7 +195,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Conclusion</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
@@ -215,7 +215,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Sources</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">

@@ -68,7 +68,7 @@
             </div>
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">History of
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">History of
                                                                                                      Python</h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Python is an interpreted high-level programming language for general purposeprogramming released
@@ -89,7 +89,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Conception</h3>
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">Conception</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         Around Christmas, December 1989, Van Rossum started a hobby to keep himself busy.
@@ -106,7 +106,7 @@
 
             <div class="col-md-6">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">Evolution</h3>
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">Evolution</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         By February 1991 Van Rossum had implemented the above as well as exception
@@ -128,7 +128,7 @@
 
         <div class="row">
             <div class="col-md-12">
-            <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">The Zen of Python</h3>
+            <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">The Zen of Python</h3>
             </div>
             <div class="col-md-6">
                 <div class="block">
@@ -173,7 +173,7 @@
 
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">Sources</h3>
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">Sources</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                         https://www.python-course.eu/python3_history_and_philosophy.php<br>

@@ -78,7 +78,7 @@
         <div class="row" id="basic">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Hello World
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -108,7 +108,7 @@ print("Hello World!")</code></pre>
                     ==================================================
                         uniqueNumbers.py
                     ================================================== -->
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Unique numbers
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -164,7 +164,7 @@ The unique numbers in sample_list_three are 1,9</code></pre>
                    ==================================================
                        uniqueNumbers.py
                    ================================================== -->
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Fibonacci sequence
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -209,7 +209,7 @@ the 20th element in the fibonacci sequence is 6765</code></pre>
     slicer.py
 ================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Slicer
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -257,7 +257,7 @@ Your username is jamesbond and your domain is british-intelligence.com</code></p
 Dog.py
 ================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Class example
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -317,7 +317,7 @@ active</code></pre>
 calculator.py
 ================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" id="advanced" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" id="advanced" data-wow-delay=".3s" data-wow-duration="500ms">
                         Calculator
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -421,7 +421,7 @@ active</code></pre>
 blackjack.py
 ================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Blackjack
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">

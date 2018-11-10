@@ -71,7 +71,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Get started
                     </h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms">
