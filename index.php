@@ -176,11 +176,11 @@
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">Sources</h3>
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        https://www.python-course.eu/python3_history_and_philosophy.php<br>
-                        https://www.python.org/dev/peps/pep-0020/<br>
-                        https://en.wikipedia.org/wiki/Guido_van_Rossum<br>
-                        https://en.wikipedia.org/wiki/Zen_of_Python<br>
-                        https://www.artima.com/intv/pythonP.html<br>
+                        <a href="https://www.python-course.eu/python3_history_and_philosophy.php">www.python-course.eu</a><br>
+                        <a href="https://www.python.org/dev/peps/pep-0020/">www.python.org</a><br>
+                        <a href="https://en.wikipedia.org/wiki/Guido_van_Rossum">en.wikipedia.org/wiki/Guido_van_Rossum</a><br>
+                        <a href="https://en.wikipedia.org/wiki/Zen_of_Python">en.wikipedia.org/wiki/Zen_of_Python</a><br>
+                        <a href="https://www.artima.com/intv/pythonP.html">www.artima.com</a><br>
                     </p>
                 </div>
             </div>

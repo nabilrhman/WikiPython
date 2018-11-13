@@ -189,7 +189,14 @@
                             If you are using other Linux operating systems, visit <a href="https://realpython.com/installing-python/#linux">here</a> for detailed instructions.
                         </li>
                     </ul>
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Source
+                    </h3>
+                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
 
+                        <a href="https://realpython.com/installing-python">www.realpython.com</a>
+
+                    </p>
                 </div>
             </div>
         </div>

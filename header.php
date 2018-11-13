@@ -31,7 +31,8 @@
                             <li><a href="links.php">Resources</a></li>
                             <li><a href="sample.php">Sample programs</a></li>
                             <li><a href="comparison.php">Comparison</a></li>
-                            <li><a href="utility.php">Utility</a></li>
+                            <li><a href="applications.php">Applications</a></li>
+                            <li><a href="ide.php">Online IDE</a></li>
                         </ul>
                     </div>
                 </nav>

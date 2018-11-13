@@ -409,11 +409,31 @@ if __name__ == '__main__':
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">black
-5
-labrador
-tired
-active</code></pre>
+                                class="language-bash">Starting calculator...
+please enter the first number: 2
+would you like to enter a second number? (y/n) y
+please enter the second number: 40
+what kind of operation would you like to perform on these values? (type in a number)
+[1]addition [2]subtraction [3]multiplication [4]division 3
+2*40 = 80
+
+
+would you like to keep using the calculator?(y/n) y
+please enter the first number: 11
+would you like to enter a second number? (y/n) n
+[1] to get the square root of 11
+[2] to get 11 squared
+type 1 or 2 to continue 2
+11 squared is 121
+
+
+would you like to keep using the calculator?(y/n) y
+please enter the first number: 50
+would you like to enter a second number? (y/n) y
+please enter the second number: 5
+what kind of operation would you like to perform on these values? (type in a number)
+[1]addition [2]subtraction [3]multiplication [4]division 4
+50/5 = 10.0</code></pre>
                     </p>
 
                     <!--
@@ -586,11 +606,43 @@ if __name__ == '__main__':
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">black
-5
-labrador
-tired
-active</code></pre>
+                                class="language-bash">WELCOME TO BLACKJACK!
+
+The dealer is showing a 4
+You have a [7, 'K'] for a total of 17
+Do you want to [H]it, [S]tand, or [Q]uit: s
+The dealer has a[4, 5, 'A'] for a total of 20
+You have a [7, 'K'] for a total of 17
+Sorry. Your score isn't higher than the dealer. You lose.
+
+Would you like to play again? (Y/N): y
+WELCOME TO BLACKJACK!
+
+The dealer is showing a 5
+You have a [10, 4] for a total of 14
+Do you want to [H]it, [S]tand, or [Q]uit: h
+The dealer has a[5, 2, 'A'] for a total of 18
+You have a [10, 4, 'A'] for a total of 15
+Sorry. Your score isn't higher than the dealer. You lose.
+
+Would you like to play again? (Y/N): y
+WELCOME TO BLACKJACK!
+
+The dealer is showing a 4
+You have a [9, 'K'] for a total of 19
+Do you want to [H]it, [S]tand, or [Q]uit: s
+The dealer has a[4, 7, 'J'] for a total of 21
+You have a [9, 'K'] for a total of 19
+Sorry, dealer got a blackjack... you lose
+
+Would you like to play again? (Y/N): y
+WELCOME TO BLACKJACK!
+
+The dealer is showing a Q
+You have a ['A', 10] for a total of 21
+The dealer has a['Q', 9] for a total of 19
+You have a ['A', 10] for a total of 21
+Well done! You got a Blackjack!</code></pre>
                     </p>
 
 

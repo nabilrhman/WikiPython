@@ -267,14 +267,14 @@ lift_off(whale) # Throws the error 'Whale' object has no attribute 'fly'
 
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
 
-                        https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/fulltext<br>
-                        https://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences<br>
-                        https://thenewstack.io/popularity-python-java-world<br>
-                        https://hackernoon.com/javascript-vs-python-in-2017-d31efbb641b4<br>
-                        https://intersog.com/blog/which-language-has-best-chance-of-survival-python-java-or-javascript<br>
-                        https://www.educba.com/python-vs-javascript<br>
-                        https://en.wikipedia.org/wiki/Scripting_language<br>
-                        https://en.wikipedia.org/wiki/Strong_and_weak_typing<br>
+                        <a href="https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/fulltext">cacm.acm.org</a><br>
+                        <a href="https://www.activestate.com/blog/2016/01/python-vs-java-duck-typing-parsing-whitespace-and-other-cool-differences">www.activestate.com</a><br>
+                        <a href="https://thenewstack.io/popularity-python-java-world">www.thenewstack.io</a><br>
+                        <a href="https://hackernoon.com/javascript-vs-python-in-2017-d31efbb641b4">www.hackernoon.com</a><br>
+                        <a href="https://intersog.com/blog/which-language-has-best-chance-of-survival-python-java-or-javascript">www.intersog.com</a><br>
+                        <a href="https://www.educba.com/python-vs-javascript">www.educba.com</a><br>
+                        <a href="https://en.wikipedia.org/wiki/Scripting_language">en.wikipedia.org/wiki/Scripting_language</a><br>
+                        <a href="https://en.wikipedia.org/wiki/Strong_and_weak_typing">en.wikipedia.org/wiki/Strong_and_weak_typing</a><br>
 
                     </p>
                 </div>
