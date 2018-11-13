@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="88ee17f1-bf1e-4806-942c-b8ae054fc11f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/applications.php" beforeDir="false" afterPath="$PROJECT_DIR$/applications.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ide.php" beforeDir="false" afterPath="$PROJECT_DIR$/ide.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/applications/ai-big.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/applications/ai-inv.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/applications/web.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +27,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="6" />
+          <entry key="htaccess" value="1" />
           <entry key="html" value="1" />
           <entry key="php" value="8" />
         </counts>
@@ -42,6 +37,7 @@
           <entry key="CSS" value="6" />
           <entry key="HTML" value="1" />
           <entry key="PHP" value="8" />
+          <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -121,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ide.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="653">
@@ -129,6 +125,15 @@
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.htaccess">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -235,6 +240,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/applications.php" />
         <option value="$PROJECT_DIR$/ide.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
       </list>
     </option>
   </component>
@@ -344,12 +350,12 @@
       <workItem from="1541802116084" duration="12478000" />
       <workItem from="1541909067299" duration="67000" />
       <workItem from="1542065699802" duration="7488000" />
-      <workItem from="1542077060682" duration="380000" />
+      <workItem from="1542077060682" duration="546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50043000" />
+    <option name="totallyTimeSpent" value="50209000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -500,6 +506,13 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
