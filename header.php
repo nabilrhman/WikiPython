@@ -17,7 +17,7 @@
                     <!-- logo -->
                     <div class="navbar-brand">
                         <a href="index.php" >
-                            <img src="images/logo.png" alt="">
+                            <img src="images/logo.png" alt="" style="max-width: 118px;">
                         </a>
                     </div>
                     <!-- /logo -->
