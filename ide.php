@@ -69,7 +69,7 @@
     <div class="container">
 
         <div class="row" style="margin-top: 42px !important;">
-            <div class="col-md-12">
+            <div class="col-md-12 wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
                 <iframe frameborder="0" width="100%" height="500px" src="https://repl.it/@nabilr/WikiPython?lite=true"></iframe>
             </div>
 

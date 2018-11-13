@@ -139,7 +139,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
+            <div class="col-md-6 wow fadeInRight" data-wow-delay=".3s">
                 <img src="images/applications/ai.jpg" alt="" class="img-responsive">
             </div>
 
