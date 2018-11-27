@@ -2,7 +2,7 @@
         ==================================================
         Header Section Start
         ================================================== -->
-        <header id="top-bar" class="navbar-fixed-top animated-header wow fadeInDown" data-wow-delay="0.1s" data-wow-duration="500ms">
+        <header id="top-bar" class="navbar-fixed-top animated-header">
             <div class="container">
                 <div class="navbar-header">
                     <!-- responsive nav button -->
