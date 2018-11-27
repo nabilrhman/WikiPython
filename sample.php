@@ -40,7 +40,6 @@
 </head>
 <body>
 
-<script src="plugins/prism/prism.js"></script>
 
 <?php include 'header.php'; ?>
 
@@ -70,8 +69,8 @@
     <div class="container">
         <div class="row" style="margin-bottom: 24px !important;">
             <div class="col-md-6">
-                <a href="sample.php#basic"><button type="button" class="btn btn-primary btn-lg">BASIC</button></a>
-                <a href="sample.php#advanced"><button type="button" class="btn btn-warning btn-lg">ADVANCED</button></a>
+                <a class="btn btn-primary btn-lg" href="#basic"><button type="button">BASIC</button></a>
+                <a class="btn btn-warning btn-lg" href="#advanced"><button type="button">ADVANCED</button></a>
             </div>
         </div>
 
@@ -675,5 +674,35 @@ Well done! You got a Blackjack!</code></pre>
 <script src="plugins/facncybox/jquery.fancybox.js"></script>
 <!-- template main js -->
 <script src="js/main.js"></script>
+
+<script src="plugins/prism/prism.js"></script>
+<script>
+    console.log("BEFORE Scroll clicked");
+    /*===================================*
+	02. SMOOTH SCROLLING JS
+	*===================================*/
+    // Select all links with hashes
+    $('a.page-scroll').on('click', function(event) {
+        console.log("Scroll clicked");
+        // On-page links
+        if ( location.pathname.replace(/^\//, '') === this.pathname.replace(/^\//, '') && location.hostname === this.hostname ) {
+            // Figure out element to scroll to
+            var target = $(this.hash),
+                speed= $(this).data("speed") || 800;
+            target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+            // Does a scroll target exist?
+            if (target.length) {
+                // Only prevent default if animation is actually gonna happen
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: target.offset().top - 80
+                }, speed);
+            }
+        }
+    });
+
+</script>
+
 </body>
 </html>
