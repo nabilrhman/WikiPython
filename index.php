@@ -43,7 +43,7 @@
 ==================================================
     Global Page Section Start
 ================================================== -->
-<section class="global-page-header">
+<section class="global-page-header wow fadeInDown" data-wow-delay=".2s" data-wow-duration="500ms">
     <div class="container">
         <div class="row">
             <div class="col-md-12">

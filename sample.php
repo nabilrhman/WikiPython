@@ -43,12 +43,11 @@
 
 <?php include 'header.php'; ?>
 
-
 <!--
 ==================================================
     Global Page Section Start
 ================================================== -->
-<section class="global-page-header">
+<section class="global-page-header wow fadeInDown" data-wow-delay=".2s" data-wow-duration="500ms">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -75,6 +74,7 @@
                 <a href="#advanced" class="btn btn-warning btn-lg page-scroll">ADVANCED</a>
             </div>
         </div>
+
 
         <div class="row" id="basic">
             <div class="col-md-12">
@@ -313,12 +313,23 @@ tired
 active</code></pre>
                     </p>
 
-                    <!--
-==================================================
-calculator.py
-================================================== -->
 
-                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" id="advanced" data-wow-delay=".3s" data-wow-duration="500ms">
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row" id="advanced">
+            <div class="col-md-12">
+                <div class="block">
+                    <!--
+                   ==================================================
+                   calculator.py
+                   ================================================== -->
+
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Calculator
                     </h3>
                     <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
@@ -403,14 +414,14 @@ if __name__ == '__main__':
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">python calculator.py</code></pre>
+                            class="language-bash">python calculator.py</code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
                         Demo
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">Starting calculator...
+                            class="language-bash">Starting calculator...
 please enter the first number: 2
 would you like to enter a second number? (y/n) y
 please enter the second number: 40
@@ -438,9 +449,9 @@ what kind of operation would you like to perform on these values? (type in a num
                     </p>
 
                     <!--
-==================================================
-blackjack.py
-================================================== -->
+            ==================================================
+            blackjack.py
+            ================================================== -->
 
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
                         Blackjack
@@ -600,14 +611,14 @@ if __name__ == '__main__':
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">python blackjack.py</code></pre>
+                            class="language-bash">python blackjack.py</code></pre>
                     </p>
                     <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
                         Demo
                     </h4>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
-                                class="language-bash">WELCOME TO BLACKJACK!
+                            class="language-bash">WELCOME TO BLACKJACK!
 
 The dealer is showing a 4
 You have a [7, 'K'] for a total of 17
@@ -645,11 +656,11 @@ The dealer has a['Q', 9] for a total of 19
 You have a ['A', 10] for a total of 21
 Well done! You got a Blackjack!</code></pre>
                     </p>
-
-
                 </div>
             </div>
         </div>
+
+
     </div>
 </section>
 
@@ -679,7 +690,7 @@ Well done! You got a Blackjack!</code></pre>
 
 <script src="plugins/prism/prism.js"></script>
 <script>
-    console.log("BEFORE Scroll clicked");
+
     /*===================================*
 	02. SMOOTH SCROLLING JS
 	*===================================*/
@@ -698,7 +709,7 @@ Well done! You got a Blackjack!</code></pre>
                 // Only prevent default if animation is actually gonna happen
                 event.preventDefault();
                 $('html, body').animate({
-                    scrollTop: target.offset().top - 80
+                    scrollTop: target.offset().top - 90
                 }, speed);
             }
         }
