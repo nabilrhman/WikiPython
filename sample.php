@@ -69,8 +69,10 @@
     <div class="container">
         <div class="row" style="margin-bottom: 24px !important;">
             <div class="col-md-6">
-                <a class="btn btn-primary btn-lg" href="#basic"><button type="button">BASIC</button></a>
-                <a class="btn btn-warning btn-lg" href="#advanced"><button type="button">ADVANCED</button></a>
+
+
+                <a href="#basic" class="btn btn-primary btn-lg page-scroll">BASIC</a>
+                <a href="#advanced" class="btn btn-warning btn-lg page-scroll">ADVANCED</a>
             </div>
         </div>
 
