@@ -135,7 +135,7 @@
                         style="margin-bottom: 10px !important;">
                         <li class="list-group-item">To get started, you first want to <a
                                     href="https://realpython.com/installing-python/#step-1-install-homebrew-part-1">install
-                                Homebrew</a>.
+                                Homebrew</a> (package manager).
                         </li>
                         <li class="list-group-item">Once Homebrew has finished installing, return to your terminal and
                             run the following command.

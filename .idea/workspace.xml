@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88ee17f1-bf1e-4806-942c-b8ae054fc11f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/comparison.php" beforeDir="false" afterPath="$PROJECT_DIR$/comparison.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.php" beforeDir="false" afterPath="$PROJECT_DIR$/sample.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/installation.php" beforeDir="false" afterPath="$PROJECT_DIR$/installation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,14 +47,14 @@
         <counts>
           <entry key="css" value="313" />
           <entry key="html" value="403" />
-          <entry key="php" value="2478" />
+          <entry key="php" value="2503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="313" />
           <entry key="HTML" value="403" />
-          <entry key="PHP" value="2478" />
+          <entry key="PHP" value="2503" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -131,11 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sample.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="69" column="93" selection-start-line="69" selection-start-column="93" selection-end-line="69" selection-end-column="93" />
+            <state relative-caret-position="459">
+              <caret line="72" column="60" lean-forward="true" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -167,11 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/installation.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="93" column="25" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="93" selection-end-column="25" />
+            <state relative-caret-position="301">
+              <caret line="137" column="62" selection-start-line="137" selection-start-column="62" selection-end-line="137" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -225,6 +225,7 @@
       <find>global</find>
       <find>Ca</find>
       <find>glo</find>
+      <find>homebre</find>
     </findStrings>
     <replaceStrings>
       <replace>#306998</replace>
@@ -248,11 +249,11 @@
         <option value="$PROJECT_DIR$/applications.php" />
         <option value="$PROJECT_DIR$/ide.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/installation.php" />
         <option value="$PROJECT_DIR$/links.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/comparison.php" />
         <option value="$PROJECT_DIR$/sample.php" />
+        <option value="$PROJECT_DIR$/installation.php" />
       </list>
     </option>
   </component>
@@ -371,12 +372,12 @@
       <workItem from="1542143951743" duration="1168000" />
       <workItem from="1543277152778" duration="1964000" />
       <workItem from="1543344222276" duration="2744000" />
-      <workItem from="1543379143098" duration="2281000" />
+      <workItem from="1543379143098" duration="2775000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60141000" />
+    <option name="totallyTimeSpent" value="60635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -501,13 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/installation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="93" column="25" lean-forward="true" selection-start-line="81" selection-start-column="20" selection-end-line="93" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/comparison.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="867">
@@ -538,8 +532,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sample.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="69" column="93" selection-start-line="69" selection-start-column="93" selection-end-line="69" selection-end-column="93" />
+        <state relative-caret-position="459">
+          <caret line="72" column="60" lean-forward="true" selection-start-line="72" selection-start-column="60" selection-end-line="72" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="137" column="62" selection-start-line="137" selection-start-column="62" selection-end-line="137" selection-end-column="62" />
         </state>
       </provider>
     </entry>
