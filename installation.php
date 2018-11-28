@@ -82,7 +82,7 @@
                     <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
                         style="margin-bottom: 10px !important;">
                         <li class="list-group-item">Python can be obtained from the Python Software Foundation website
-                            at python.org. Typically, that involves downloading the appropriate installer for your
+                            at <a href="http://python.org">python.org</a>. Typically, that involves downloading the appropriate installer for your
                             operating system and running it on your machine.
                         </li>
                         <li class="list-group-item">Some operating systems, notably Linux, provide a package manager
@@ -106,8 +106,8 @@
 
                     <ul class="list-group wow fadeInUp" data-wow-delay=".5s" data-wow-duration="800ms"
                         style="margin-bottom: 10px !important;">
-                        <li class="list-group-item">Open a browser window and navigate to the Download page for Windows
-                            at python.org.
+                        <li class="list-group-item">Open a browser window and navigate to the <a href="https://www.python.org/downloads/windows/">Download page for Windows</a>
+                                                    at <a href="http://python.org">python.org</a>.
                         </li>
                         <li class="list-group-item">Underneath the heading at the top that says Python Releases for
                             Windows, click on the link for the Latest Python 3 Release - Python 3.x.x. (As of this
