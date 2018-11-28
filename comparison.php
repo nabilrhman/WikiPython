@@ -67,6 +67,59 @@
 ================================================== -->
 <section class="company-description">
     <div class="container">
+        
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="block">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s"
+                        data-wow-duration="500ms">
+                        Pros</h3>
+
+                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
+                        style="margin-bottom: 10px !important;">
+                        <li class="list-group-item">Python is a very easy language to learn and read, especially to those familiar to Java which is widely used commercially
+                        </li>
+                        <li class="list-group-item">Deep standard Libraries
+                        </li>
+                        <li class="list-group-item">Can easily scale for large projects
+                        </li>
+                        <li class="list-group-item">Runs virtually, so it can work cross platform
+                        </li>
+                        <li class="list-group-item">Machine Learning and AI
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="block">
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s"
+                        data-wow-duration="500ms">
+                        Cons</h3>
+
+                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
+                        style="margin-bottom: 10px !important;">
+                        <li class="list-group-item">Python is "slow" (Interpreted)
+                        </li>
+                        <li class="list-group-item">Mobile Development
+                        </li>
+                        <li class="list-group-item">Multi-processor/Multi-core work
+                        </li>
+                        <li class="list-group-item">3D Graphics
+                        </li>
+                    </ul>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
 
         <div class="row">
             <div class="col-md-12">
@@ -236,57 +289,7 @@ lift_off(whale) # Throws the error 'Whale' object has no attribute 'fly'
 
         </div>
 
-        <div class="row">
 
-            <div class="col-md-6">
-                <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s"
-                        data-wow-duration="500ms">
-                        Pros</h3>
-
-                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
-                        style="margin-bottom: 10px !important;">
-                        <li class="list-group-item">Python is a very easy language to learn and read, especially to those familiar to Java which is widely used commercially
-                        </li>
-                        <li class="list-group-item">Deep standard Libraries
-                        </li>
-                        <li class="list-group-item">Can easily scale for large projects
-                        </li>
-                        <li class="list-group-item">Runs virtually, so it can work cross platform
-                        </li>
-                        <li class="list-group-item">Machine Learning and AI
-                        </li>
-                    </ul>
-
-
-                </div>
-            </div>
-
-
-            <div class="col-md-6">
-                <div class="block">
-                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s"
-                        data-wow-duration="500ms">
-                        Cons</h3>
-
-                    <ul class="list-group wow fadeInUp" data-wow-delay=".7s" data-wow-duration="800ms"
-                        style="margin-bottom: 10px !important;">
-                        <li class="list-group-item">Python is "slow" (Interpreted)
-                        </li>
-                        <li class="list-group-item">Mobile Development
-                        </li>
-                        <li class="list-group-item">Multi-processor/Multi-core work
-                        </li>
-                        <li class="list-group-item">3D Graphics
-                        </li>
-                    </ul>
-
-
-                </div>
-
-            </div>
-
-        </div>
 
         <div class="row">
 
