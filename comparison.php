@@ -283,7 +283,7 @@ lift_off(whale) # Throws the error 'Whale' object has no attribute 'fly'
 
 
                 </div>
-                </div>
+
             </div>
 
         </div>

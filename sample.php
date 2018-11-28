@@ -67,7 +67,7 @@
 <section class="company-description">
     <div class="container">
         <div class="row" style="margin-bottom: 24px !important;">
-            <div class="col-md-6">
+            <div class="col-md-6 wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
 
 
                 <a href="#basic" class="btn btn-primary btn-lg page-scroll">BASIC</a>
@@ -103,6 +103,48 @@ print("Hello World!")</code></pre>
                     <p>
                     <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
                                 class="language-python">Hello World!</code></pre>
+                    </p>
+
+                    <!--
+                    ==================================================
+                        isPrime.py
+                    ================================================== -->
+                    <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Prime Number
+                    </h3>
+                    <h4 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Program
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python"># A prime number is a number which is divisible by only two numbers: 1 and itself.
+def is_prime(number):
+  for i in range(2, number):
+    if (number % i) == 0:
+      print(str(number) + " is not prime.")
+      break
+    else:
+      print(str(number) + " is prime.")
+      break
+
+is_prime(7)
+
+# FUN FACT (Not related to prime)
+print("What? " * 3)</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Run
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-bash">python isPrime.py</code></pre>
+                    </p>
+                    <h4 class="subtitle wow fadeInUp h4WithPadding" data-wow-delay=".3s" data-wow-duration="500ms">
+                        Output
+                    </h4>
+                    <p>
+                    <pre class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms"><code
+                                class="language-python">7 is prime.</code></pre>
                     </p>
 
                     <!--
