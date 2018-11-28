@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88ee17f1-bf1e-4806-942c-b8ae054fc11f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/comparison.php" beforeDir="false" afterPath="$PROJECT_DIR$/comparison.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,14 +47,14 @@
         <counts>
           <entry key="css" value="313" />
           <entry key="html" value="403" />
-          <entry key="php" value="2551" />
+          <entry key="php" value="2557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="313" />
           <entry key="HTML" value="403" />
-          <entry key="PHP" value="2551" />
+          <entry key="PHP" value="2557" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.actions" />
@@ -121,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
+            <state relative-caret-position="-323">
+              <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -157,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/comparison.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+            <state relative-caret-position="258">
+              <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -230,6 +231,7 @@
       <find>glo</find>
       <find>homebre</find>
       <find>python.or</find>
+      <find>pros</find>
     </findStrings>
     <replaceStrings>
       <replace>#306998</replace>
@@ -252,12 +254,12 @@
         <option value="$PROJECT_DIR$/sample.html" />
         <option value="$PROJECT_DIR$/applications.php" />
         <option value="$PROJECT_DIR$/ide.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/links.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/sample.php" />
         <option value="$PROJECT_DIR$/installation.php" />
         <option value="$PROJECT_DIR$/comparison.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -376,12 +378,12 @@
       <workItem from="1542143951743" duration="1168000" />
       <workItem from="1543277152778" duration="1964000" />
       <workItem from="1543344222276" duration="2744000" />
-      <workItem from="1543379143098" duration="4171000" />
+      <workItem from="1543379143098" duration="4845000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62031000" />
+    <option name="totallyTimeSpent" value="62705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -520,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="45" column="98" selection-start-line="45" selection-start-column="98" selection-end-line="45" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sample.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -543,12 +538,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/comparison.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="69" column="8" selection-start-line="69" selection-start-column="8" selection-end-line="69" selection-end-column="8" />
+        <state relative-caret-position="258">
+          <caret line="65" column="37" lean-forward="true" selection-start-line="65" selection-start-column="37" selection-end-line="65" selection-end-column="37" />
           <folding>
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="79" column="36" selection-start-line="79" selection-start-column="36" selection-end-line="79" selection-end-column="36" />
         </state>
       </provider>
     </entry>

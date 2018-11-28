@@ -71,13 +71,13 @@
                     <h3 class="subtitle wow fadeInUp h3WithPaddingExtended" data-wow-delay=".3s" data-wow-duration="500ms">History of
                                                                                                      Python</h3>
                     <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        Python is an interpreted high-level programming language for general purposeprogramming released
-                        in 1991. The creator, Guido van Rossum, was born and raised inthe Netherlands, receiving a
+                        Python is an interpreted high-level programming language for general purpose programming released
+                        in 1991. The creator, Guido van Rossum, was born and raised in the Netherlands, receiving a
                         masters in both mathematics and computer science fromthe University of Amsterdam in 1982. After
-                        graduation Van Rossum worked for CentrumWiskunde & Informatica (CWI), a research facility of
-                        math and computer science. Therehe helped develop ABC, an imperative general-purpose programming
-                        language, whichguided his creation of Python. He quotes “I try to mention ABC's influence
-                        because I'mindebted to everything I learned during that project and to the people who worked on
+                        graduation Van Rossum worked for Centrum Wiskunde & Informatica (CWI), a research facility of
+                        math and computer science. There he helped develop ABC, an imperative general-purpose programming
+                        language, which guided his creation of Python. He quotes “I try to mention ABC's influence
+                        because I'm indebted to everything I learned during that project and to the people who worked on
                         it."
                     </p>
 
