@@ -1,6 +1,7 @@
 # WikiPython
+http://wikipython.herokuapp.com/
 
-A wiki for Python beginners. Website: http://wikipython.herokuapp.com/
+A wiki for Python beginners.
 
 ## Tools used
 
